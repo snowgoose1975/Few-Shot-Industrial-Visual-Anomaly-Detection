@@ -1,0 +1,166 @@
+{
+  "reference": "cashew/Data/Images/Normal/185.JPG",
+  "normal_calibration": [
+    {
+      "image": "cashew/Data/Images/Normal/101.JPG",
+      "score": 0.31910693645477295
+    },
+    {
+      "image": "cashew/Data/Images/Normal/259.JPG",
+      "score": 0.38558563590049744
+    },
+    {
+      "image": "cashew/Data/Images/Normal/412.JPG",
+      "score": 0.28843483328819275
+    },
+    {
+      "image": "cashew/Data/Images/Normal/179.JPG",
+      "score": 0.4133271872997284
+    },
+    {
+      "image": "cashew/Data/Images/Normal/047.JPG",
+      "score": 0.40066519379615784
+    },
+    {
+      "image": "cashew/Data/Images/Normal/045.JPG",
+      "score": 0.3916998505592346
+    },
+    {
+      "image": "cashew/Data/Images/Normal/291.JPG",
+      "score": 0.3942457139492035
+    },
+    {
+      "image": "cashew/Data/Images/Normal/320.JPG",
+      "score": 0.4145600199699402
+    },
+    {
+      "image": "cashew/Data/Images/Normal/004.JPG",
+      "score": 0.3554289937019348
+    },
+    {
+      "image": "cashew/Data/Images/Normal/301.JPG",
+      "score": 0.42113301157951355
+    },
+    {
+      "image": "cashew/Data/Images/Normal/184.JPG",
+      "score": 0.39588141441345215
+    },
+    {
+      "image": "cashew/Data/Images/Normal/078.JPG",
+      "score": 0.3169228136539459
+    },
+    {
+      "image": "cashew/Data/Images/Normal/345.JPG",
+      "score": 0.393314927816391
+    },
+    {
+      "image": "cashew/Data/Images/Normal/349.JPG",
+      "score": 0.33644306659698486
+    },
+    {
+      "image": "cashew/Data/Images/Normal/418.JPG",
+      "score": 0.4260421097278595
+    },
+    {
+      "image": "cashew/Data/Images/Normal/404.JPG",
+      "score": 0.3367912769317627
+    },
+    {
+      "image": "cashew/Data/Images/Normal/172.JPG",
+      "score": 0.2786855101585388
+    },
+    {
+      "image": "cashew/Data/Images/Normal/340.JPG",
+      "score": 0.41254380345344543
+    },
+    {
+      "image": "cashew/Data/Images/Normal/416.JPG",
+      "score": 0.36550718545913696
+    },
+    {
+      "image": "cashew/Data/Images/Normal/420.JPG",
+      "score": 0.38446083664894104
+    },
+    {
+      "image": "cashew/Data/Images/Normal/008.JPG",
+      "score": 0.40765589475631714
+    },
+    {
+      "image": "cashew/Data/Images/Normal/070.JPG",
+      "score": 0.43266060948371887
+    },
+    {
+      "image": "cashew/Data/Images/Normal/440.JPG",
+      "score": 0.32699716091156006
+    },
+    {
+      "image": "cashew/Data/Images/Normal/268.JPG",
+      "score": 0.4230738580226898
+    },
+    {
+      "image": "cashew/Data/Images/Normal/483.JPG",
+      "score": 0.4944383203983307
+    },
+    {
+      "image": "cashew/Data/Images/Normal/124.JPG",
+      "score": 0.3972983658313751
+    },
+    {
+      "image": "cashew/Data/Images/Normal/380.JPG",
+      "score": 0.3233303725719452
+    },
+    {
+      "image": "cashew/Data/Images/Normal/310.JPG",
+      "score": 0.4440349042415619
+    },
+    {
+      "image": "cashew/Data/Images/Normal/329.JPG",
+      "score": 0.30046504735946655
+    },
+    {
+      "image": "cashew/Data/Images/Normal/286.JPG",
+      "score": 0.3717913031578064
+    },
+    {
+      "image": "cashew/Data/Images/Normal/375.JPG",
+      "score": 0.41729214787483215
+    },
+    {
+      "image": "cashew/Data/Images/Normal/153.JPG",
+      "score": 0.3303941488265991
+    },
+    {
+      "image": "cashew/Data/Images/Normal/164.JPG",
+      "score": 0.4068004786968231
+    },
+    {
+      "image": "cashew/Data/Images/Normal/061.JPG",
+      "score": 0.43822211027145386
+    },
+    {
+      "image": "cashew/Data/Images/Normal/371.JPG",
+      "score": 0.3433363735675812
+    },
+    {
+      "image": "cashew/Data/Images/Normal/033.JPG",
+      "score": 0.4321165978908539
+    },
+    {
+      "image": "cashew/Data/Images/Normal/453.JPG",
+      "score": 0.3787594735622406
+    },
+    {
+      "image": "cashew/Data/Images/Normal/427.JPG",
+      "score": 0.36286938190460205
+    },
+    {
+      "image": "cashew/Data/Images/Normal/158.JPG",
+      "score": 0.36940038204193115
+    },
+    {
+      "image": "cashew/Data/Images/Normal/304.JPG",
+      "score": 0.3641377091407776
+    }
+  ],
+  "failures": []
+}

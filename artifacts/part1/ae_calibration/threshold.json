@@ -1,0 +1,16 @@
+{
+  "checkpoint": "artifacts/part1/autoencoder/model.pt",
+  "checkpoint_sha256": "c43cb2fe3b7d570a407ceeb957fa6a7bda38ce072d317462e9868b378b3d3a86",
+  "data_root": "data/raw/visa",
+  "size": 128,
+  "num_calibration": 40,
+  "image_threshold": 0.1891183853149414,
+  "pixel_threshold": 0.15891672670841217,
+  "target_fpr": 0.05,
+  "pixel_target_fpr": 0.005,
+  "image_score": "mean top 1% RGB absolute reconstruction error, full resized image",
+  "calibration_image_fpr": 0.025,
+  "calibration_pixel_fpr": 0.004998779296875,
+  "decision_rule": "strictly greater than threshold",
+  "morphology": "none; preserve low-resolution small regions"
+}

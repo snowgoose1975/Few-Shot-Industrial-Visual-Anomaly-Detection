@@ -1,0 +1,30 @@
+[project]
+name = "intro-to-cv"
+version = "0.1.0"
+description = "CPU baselines for few-shot industrial visual anomaly detection on VisA"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "opencv-python-headless>=5.0.0.93",
+    "scikit-image>=0.26.0",
+    "scikit-learn>=1.9.1",
+    "torch>=2.14.1",
+]
+
+[project.scripts]
+intro-to-cv = "intro_to_cv:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
+
+# Only PyTorch uses this index; other packages stay on PyPI.
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }

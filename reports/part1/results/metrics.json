@@ -1,0 +1,40 @@
+{
+  "difference": {
+    "image_AUROC": 0.8278,
+    "image_AP": 0.8891899293142973,
+    "TN": 45,
+    "FP": 5,
+    "FN": 57,
+    "TP": 43,
+    "FPR": 0.1,
+    "FNR": 0.57,
+    "normal_brightness_0_8_FPR": 0.82,
+    "mean_scoring_seconds_without_file_read": 0.0038787403198997103,
+    "pixel_AUROC": 0.8851137087923812,
+    "pixel_AP": 0.4489289863303078,
+    "AUPRO": 0.7260741139778976,
+    "pro_limit": 0.3,
+    "regions": 154,
+    "connectivity": 8,
+    "normal_test_images_included": true
+  },
+  "autoencoder": {
+    "image_AUROC": 0.9512,
+    "image_AP": 0.9636070715660021,
+    "TN": 46,
+    "FP": 4,
+    "FN": 8,
+    "TP": 92,
+    "FPR": 0.08,
+    "FNR": 0.08,
+    "normal_brightness_0_8_FPR": 0.0,
+    "mean_scoring_seconds_without_file_read": 0.0013374276865336773,
+    "pixel_AUROC": 0.5830594766674166,
+    "pixel_AP": 0.016893813735514098,
+    "AUPRO": 0.40386818622052006,
+    "pro_limit": 0.3,
+    "regions": 154,
+    "connectivity": 8,
+    "normal_test_images_included": true
+  }
+}

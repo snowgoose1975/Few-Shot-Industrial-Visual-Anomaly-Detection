@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local datasets, model weights, and generated experiment outputs
+/data/
+/outputs/
+/checkpoints/
+
+# Notebook caches and Windows download metadata
+.ipynb_checkpoints/
+*:Zone.Identifier
+
+# Reversible local archives and assistant planning notes
+/.local_archive/
+/task_plan.md
+/findings.md
+/progress.md
+/学习计划.md
+/Part1收尾.md
+/AIAA3201_Project2_Few_Shot_Industrial_Visual_Anomaly_Detection_Spring2027.pdf
+/.agents/
+/.codex/
+/.aws/
+.pytest_cache/
+.ruff_cache/
