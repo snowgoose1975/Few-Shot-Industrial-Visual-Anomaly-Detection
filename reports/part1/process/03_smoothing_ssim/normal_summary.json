@@ -1,0 +1,28 @@
+{
+  "reference": "data/raw/visa/cashew/Data/Images/Normal/000.JPG",
+  "test": "data/raw/visa/cashew/Data/Images/Normal/001.JPG",
+  "mask": null,
+  "blur_kernel": 11,
+  "ssim_window": 11,
+  "ssim_difference_formula": "(1 - SSIM) / 2",
+  "ecc": 0.9820024633972417,
+  "coordinates": "reference",
+  "warp_reference_to_test": [
+    [
+      0.9992719888687134,
+      -0.03818140923976898,
+      62.258426666259766
+    ],
+    [
+      0.03811934217810631,
+      0.9992719888687134,
+      10.910599708557129
+    ]
+  ],
+  "safe_fraction": 0.9240494078322067,
+  "mean_difference": {
+    "absolute": 0.07955914735794067,
+    "smoothed": 0.07955925166606903,
+    "ssim": 0.3952238857746124
+  }
+}

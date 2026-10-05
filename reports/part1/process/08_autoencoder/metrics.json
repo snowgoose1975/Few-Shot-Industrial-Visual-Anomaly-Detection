@@ -1,0 +1,28 @@
+{
+  "scope": "full official cashew test split, low-resolution teaching AE",
+  "size": 128,
+  "num_images": 150,
+  "image_AUROC": 0.9512,
+  "image_AP": 0.9636070715660021,
+  "TN": 46,
+  "FP": 4,
+  "FN": 8,
+  "TP": 92,
+  "FPR": 0.08,
+  "FNR": 0.08,
+  "image_threshold": 0.1891183853149414,
+  "pixel_threshold": 0.15891672670841217,
+  "explored_samples_included": [
+    "Anomaly/000.JPG",
+    "Anomaly/001.JPG"
+  ],
+  "pixel_protocol": "128x128 whole image; GT nearest-neighbor resize; no foreground masking",
+  "limitation": "small defects can vanish when resizing; not directly comparable to original-resolution difference baseline",
+  "pixel_AUROC": 0.5830594766674166,
+  "pixel_AP": 0.016893813735514098,
+  "AUPRO": 0.40386818622052006,
+  "pro_limit": 0.3,
+  "regions": 154,
+  "connectivity": 8,
+  "normal_test_images_included": true
+}

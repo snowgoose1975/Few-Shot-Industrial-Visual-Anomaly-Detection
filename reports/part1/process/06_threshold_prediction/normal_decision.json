@@ -1,0 +1,22 @@
+{
+  "test": "data/raw/visa/cashew/Data/Images/Normal/023.JPG",
+  "reference": "data/raw/visa/cashew/Data/Images/Normal/185.JPG",
+  "threshold": 0.4440349042415619,
+  "score": 0.32192477583885193,
+  "decision": "OK",
+  "pixel_threshold": 0.3792904019355774,
+  "predicted_pixels": 314,
+  "warp_reference_to_test": [
+    [
+      0.9999127388000488,
+      -0.013220982626080513,
+      -281.9398193359375
+    ],
+    [
+      0.013199490495026112,
+      0.9999127388000488,
+      -43.99699020385742
+    ]
+  ],
+  "localization_note": "full-image evaluation must include background with zero score; report ROI coverage"
+}

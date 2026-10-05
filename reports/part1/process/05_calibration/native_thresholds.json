@@ -1,0 +1,23 @@
+{
+  "data_root": "data/raw/visa",
+  "reference": "cashew/Data/Images/Normal/185.JPG",
+  "category": "cashew",
+  "seed": 0,
+  "num_requested": 40,
+  "num_successful": 40,
+  "num_failed": 0,
+  "score_method": "mean of top 1% smoothed absolute differences in foreground ROI",
+  "blur_kernel": 11,
+  "ssim_window": 11,
+  "foreground_margin_ratio": 0.1,
+  "target_fpr": 0.05,
+  "image_threshold": 0.4440349042415619,
+  "pixel_target_fpr_within_roi": 0.005,
+  "pixel_threshold": 0.3792904019355774,
+  "pixel_calibration": "pooled normal ROI pixels; before morphology",
+  "pixel_calibration_fpr": 0.004999977227918202,
+  "morphology": "3x3 opening then closing; intersect ROI after each step",
+  "decision_rule": "NG if score > threshold; preprocessing failure => UNCERTAIN",
+  "calibration_fpr_successful_only": 0.025,
+  "protocol": "teaching calibration; only official train/normal; not final benchmark"
+}

@@ -1,0 +1,24 @@
+{
+  "reference": "data/raw/visa/cashew/Data/Images/Normal/000.JPG",
+  "test": "data/raw/visa/cashew/Data/Images/Normal/001.JPG",
+  "motion": "euclidean",
+  "ecc": 0.9820024633972417,
+  "warp_reference_to_test": [
+    [
+      0.9992719888687134,
+      -0.03818140923976898,
+      62.258426666259766
+    ],
+    [
+      0.03811934217810631,
+      0.9992719888687134,
+      10.910599708557129
+    ]
+  ],
+  "valid_fraction": 0.9401337850681875,
+  "mean_before": 0.10518805682659149,
+  "mean_after": 0.07967868447303772,
+  "heatmap_coordinates": "reference",
+  "estimation_max_edge": 512,
+  "estimation_blur_kernel": 11
+}

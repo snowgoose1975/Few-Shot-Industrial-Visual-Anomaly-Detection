@@ -1,0 +1,30 @@
+{
+  "reference": "data/raw/visa/cashew/Data/Images/Normal/000.JPG",
+  "test": "data/raw/visa/cashew/Data/Images/Anomaly/000.JPG",
+  "mask": "data/raw/visa/cashew/Data/Masks/Anomaly/000.png",
+  "blur_kernel": 11,
+  "ssim_window": 11,
+  "ssim_difference_formula": "(1 - SSIM) / 2",
+  "ecc": 0.9752406811484305,
+  "coordinates": "reference",
+  "warp_reference_to_test": [
+    [
+      0.9912353754043579,
+      0.13221533596515656,
+      -50.386375427246094
+    ],
+    [
+      -0.1320004016160965,
+      0.9912353754043579,
+      142.45260620117188
+    ]
+  ],
+  "safe_fraction": 0.2335231580858403,
+  "foreground": true,
+  "foreground_brightness_threshold_from_reference": 107.0,
+  "mean_difference": {
+    "absolute": 0.07285385578870773,
+    "smoothed": 0.07287406176328659,
+    "ssim": 0.2445397526025772
+  }
+}

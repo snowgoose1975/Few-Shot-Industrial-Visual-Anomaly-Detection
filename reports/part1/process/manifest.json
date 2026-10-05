@@ -1,0 +1,173 @@
+{
+  "scope": "Part 1 teaching progression; images copied exactly from preserved historical outputs",
+  "figures": [
+    {
+      "figure": "01_raw_difference/normal.png",
+      "original_output": "normal/comparison.png",
+      "caption": "正常000作模板，正常001直接差分；轮廓错位也会产生高差值。",
+      "sha256": "97552fd5701d370006d5b1ce51202ef5e01061d24d57684df0f8d3ab1f5e0a06",
+      "bytes": 2761556
+    },
+    {
+      "figure": "01_raw_difference/anomaly.png",
+      "original_output": "anomaly/comparison.png",
+      "caption": "同一正常模板与异常000；缺陷信号和位置/背景差异混在一起。",
+      "sha256": "797631cf573940489dcd866e309013da03357984c02bc0ac7d66026b2b93ab74",
+      "bytes": 2936077
+    },
+    {
+      "figure": "02_registration/normal.png",
+      "original_output": "ecc_normal/comparison.png",
+      "caption": "正常图配准前后，查看边缘差值与有效采样区域。",
+      "sha256": "edd8bb0b9759b41ac1d49cd0eec40a4b7d3ef765593508499db40a3d49676243",
+      "bytes": 4158352
+    },
+    {
+      "figure": "02_registration/anomaly.png",
+      "original_output": "ecc_anomaly/comparison.png",
+      "caption": "异常000配准前后；对齐减少轮廓错位，但不消除个体形状与背景纹理差异。",
+      "sha256": "48af485d12c427fa05963fef3838a5e543dfcea1df49684e2d627330f3f4dc99",
+      "bytes": 4451765
+    },
+    {
+      "figure": "03_smoothing_ssim/normal.png",
+      "original_output": "maps_normal/comparison.png",
+      "caption": "正常图的绝对差、11×11平滑差和SSIM差异，观察正常变化误响应。",
+      "sha256": "41e90717b04f29a3f4e859c17223f4e05adbee8697b6dfce64da98e390d67b50",
+      "bytes": 3661195
+    },
+    {
+      "figure": "03_smoothing_ssim/anomaly.png",
+      "original_output": "maps_anomaly/comparison.png",
+      "caption": "异常000的三种差异及真实mask；SSIM对背景纹理强响应。",
+      "sha256": "c685eab9d11990b95262984044896929ba62af9695aef9971879c39e34efacc3",
+      "bytes": 3797319
+    },
+    {
+      "figure": "04_foreground/normal.png",
+      "original_output": "foreground_normal/comparison.png",
+      "caption": "限制检测范围后的正常图热图，仍保留轮廓和邻近背景。",
+      "sha256": "3f375ae99a761d9a5a2808f77dd1a7990ce1f6ff7ec3ee5f0a153b1b5009d29c",
+      "bytes": 2279736
+    },
+    {
+      "figure": "04_foreground/anomaly.png",
+      "original_output": "foreground_anomaly/comparison.png",
+      "caption": "异常000排除大部分背景后；保留保守外扩区域，避免删掉下沿缺陷。",
+      "sha256": "8f4c56668bb72017e84c55e73a7b81ade3987858f80ca2e47f39e0df43e9932e",
+      "bytes": 2393123
+    },
+    {
+      "figure": "04_foreground/normal_roi.png",
+      "original_output": "foreground_normal/foreground.png",
+      "caption": "正常模板、正常测试前景和并集外扩的检测范围。",
+      "sha256": "bce83ba02fef27cada4a4c5deac8bc77c8e0ec29c895b6748e5225ffc6be578a",
+      "bytes": 2632683
+    },
+    {
+      "figure": "04_foreground/anomaly_roi.png",
+      "original_output": "foreground_anomaly/foreground.png",
+      "caption": "异常000的前景与检测范围；绿色轮廓不是缺陷预测。",
+      "sha256": "e855dc2c5a869d4a98d971a078f59351918b01d786934be6dbce25795cb6e07b",
+      "bytes": 2871060
+    },
+    {
+      "figure": "05_calibration/native_test_scores.png",
+      "original_output": "batch_evaluation/test_score_distribution.png",
+      "caption": "原尺寸、148张教学测试子集的分数分布；不能混入最终128×128、150张结果表。",
+      "sha256": "c9d1ba82bbef1a0d3c7732944bb8c755b38aac06ae6d817973732a9718f50037",
+      "bytes": 34847
+    },
+    {
+      "figure": "06_threshold_prediction/normal_prediction.png",
+      "original_output": "localization_normal/prediction_comparison.png",
+      "caption": "模板185、正常测试023：整图OK仍可有局部误报，红色为像素预测。",
+      "sha256": "43b535d70eb08608ac915e74c270dbf30da69f9fa480b4d31c42b62a355bc157",
+      "bytes": 1956799
+    },
+    {
+      "figure": "06_threshold_prediction/anomaly_prediction.png",
+      "original_output": "localization_anomaly/prediction_comparison.png",
+      "caption": "模板185、异常测试001：图像OK和不正确的像素区域，展示漏检。",
+      "sha256": "4d3ebdd6f73517d22ab8d4f918389dcf8e2a447a6ead19f19930c04447f55d99",
+      "bytes": 2167756
+    },
+    {
+      "figure": "06_threshold_prediction/normal_raw_mask.png",
+      "original_output": "localization_normal/prediction_raw_reference.png",
+      "caption": "正常023阈值化原始mask，参考模板坐标系。",
+      "sha256": "77feec1c5fcb5931ff825d0a89c96aa80057fb6ecb182e2686edc6e98ea4b798",
+      "bytes": 3771
+    },
+    {
+      "figure": "06_threshold_prediction/normal_clean_mask.png",
+      "original_output": "localization_normal/prediction_reference.png",
+      "caption": "正常023经3×3开闭运算后的mask；与原始mask同坐标。",
+      "sha256": "91d9fe816f9e6fcda690d657dff83eaee58a8604546483afebe2b72a33e48e2e",
+      "bytes": 3678
+    },
+    {
+      "figure": "06_threshold_prediction/anomaly_raw_mask.png",
+      "original_output": "localization_anomaly/prediction_raw_reference.png",
+      "caption": "异常001阈值化原始mask，参考模板坐标系。",
+      "sha256": "bc0c0880766b237f9fbdf79e6f9273bf7e37b7c3730ddcbc361b9d1291e4db54",
+      "bytes": 3975
+    },
+    {
+      "figure": "06_threshold_prediction/anomaly_clean_mask.png",
+      "original_output": "localization_anomaly/prediction_reference.png",
+      "caption": "异常001经3×3开闭运算后的mask；平滑区域不代表正确定位。",
+      "sha256": "cc96e9e465fbf75bc4628bc9ae8bdac8367006ca7da4627c60524dfa273214eb",
+      "bytes": 3924
+    },
+    {
+      "figure": "07_failure_diagnosis/heatmap_and_ground_truth.png",
+      "original_output": "diagnosis_anomaly_001/comparison.png",
+      "caption": "模板185、异常001的真实mask和差异图；缺陷较弱，边缘和邻近背景干扰。",
+      "sha256": "4e5f6b41373c9194dba86238d123f8036108bc9bb2cf2a6bc567f04015ac34cc",
+      "bytes": 2151600
+    },
+    {
+      "figure": "07_failure_diagnosis/top_one_percent.png",
+      "original_output": "diagnosis_anomaly_001/top_pixels.png",
+      "caption": "红色为原尺寸评分最高1%像素，绿色为真实缺陷；此例没有重叠。",
+      "sha256": "5112a4e3c40f07b63ab2870f9a6b652626105199966f2c18ad3e8d28ccc12caa",
+      "bytes": 1986144
+    },
+    {
+      "figure": "07_failure_diagnosis/diagnosis_roi.png",
+      "original_output": "diagnosis_anomaly_001/foreground.png",
+      "caption": "模板185下的前景检测范围，说明保留范围不等于缺陷位置。",
+      "sha256": "95fad3d6375de1467de49132f1cf09c23e4fa21ef634f1cff27ef492abcd5b38",
+      "bytes": 2403788
+    },
+    {
+      "figure": "08_autoencoder/normal_023.png",
+      "original_output": "ae_evaluation/example_normal_023.png",
+      "caption": "AE正常023：输入、重建、GT、误差、像素预测；128×128。",
+      "sha256": "5a46a4b139acdcc1d69b8a2fc528ad38ad8b23dad915e141cf599bb7a09e5ecb",
+      "bytes": 168459
+    },
+    {
+      "figure": "08_autoencoder/normal_352.png",
+      "original_output": "ae_evaluation/example_normal_352.png",
+      "caption": "另一正常样例，用于说明正常重建误差和局部误报。",
+      "sha256": "9a68a2c5941ae241ad2cd8391ebd8df922e17a60b27125dde93e3af893de7783",
+      "bytes": 169002
+    },
+    {
+      "figure": "08_autoencoder/anomaly_000.png",
+      "original_output": "ae_evaluation/example_anomaly_000.png",
+      "caption": "AE异常000的五联图，重建误差与真实缺陷位置的差别。",
+      "sha256": "b306ce6421ae1d920ed26ce0c36c7b62f43d9607b9479a040511ce59ae97a28e",
+      "bytes": 179545
+    },
+    {
+      "figure": "08_autoencoder/anomaly_001.png",
+      "original_output": "ae_evaluation/example_anomaly_001.png",
+      "caption": "AE异常001的五联图，整图检测与像素定位不能混为一谈。",
+      "sha256": "9f39b32dd1ef5e8914170f2f29f01238b262811253da55682669690933a49fb6",
+      "bytes": 175726
+    }
+  ]
+}

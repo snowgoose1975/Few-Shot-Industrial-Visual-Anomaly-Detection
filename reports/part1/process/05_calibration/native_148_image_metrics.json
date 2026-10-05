@@ -1,0 +1,28 @@
+{
+  "category": "cashew",
+  "scope": "image-level teaching evaluation; not full course benchmark",
+  "calibration_file": "outputs/part1/localization_calibration/threshold.json",
+  "calibration_sha256": "17c1c3a3d057c34f3c454e30815348e532d4af83e1222f31c662c9be0c51bac1",
+  "excluded_exploration_images": [
+    "cashew/Data/Images/Anomaly/000.JPG",
+    "cashew/Data/Images/Anomaly/001.JPG"
+  ],
+  "limit_per_class": null,
+  "num_requested": 148,
+  "num_successful": 148,
+  "num_preprocessing_failures": 0,
+  "coverage": 1.0,
+  "metrics_population": "successful preprocessing only; failures separately reported",
+  "image_threshold": 0.4440349042415619,
+  "AUROC": 0.7951020408163265,
+  "AP": 0.8525602055261021,
+  "TN": 40,
+  "FP": 10,
+  "FN": 53,
+  "TP": 45,
+  "FPR": 0.2,
+  "FNR": 0.5408163265306123,
+  "recall": 0.45918367346938777,
+  "mean_seconds_per_requested_image": 0.4649735267905173,
+  "pixel_metrics": "not computed in this lesson"
+}

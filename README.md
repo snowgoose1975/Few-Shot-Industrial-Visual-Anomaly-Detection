@@ -12,7 +12,7 @@ src/intro_to_cv/
 ├── common/             # 读图/缩放、VisA划分/GT、评分、阈值、形态学与指标
 └── experiments/        # 两条基线的统一对照
 artifacts/part1/         # 小模型权重、正常训练/校准清单、阈值（可复现）
-reports/part1/           # 最终指标、逐图预测、定位图、训练曲线与报告笔记
+reports/part1/           # 最终指标、过程图、定位图、训练曲线与报告笔记
 outputs/                # 新实验临时输出，不纳入Git
 ```
 
@@ -129,7 +129,7 @@ AE单独评价与统一对照的AE部分使用同样的128全图重建误差。�
 - 固定0.8倍亮度探针是合成正常扰动，不是新的真实跨域数据集。
 - 计时仅覆盖本机推理/打分，不含文件读取；未完成课程全部效率测量与六类实验。
 
-详细素材目录与展示建议见 [reports/part1/README.md](reports/part1/README.md)，方法解释见 [docs/part1_methods.md](docs/part1_methods.md)。
+详细素材目录与展示建议见 [reports/part1/README.md](reports/part1/README.md)。[过程图索引](reports/part1/process/README.md) 保留未配准、配准、平滑/SSIM、前景筛选、阈值与失败诊断等24张历史输出，并注明不同阶段的实验设置。方法解释见 [docs/part1_methods.md](docs/part1_methods.md)。
 
 ## 验证
 
